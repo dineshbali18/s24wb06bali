@@ -1,6 +1,8 @@
 extends layout
  
 block content
+  h1= title
+  p No of rows - #{Number(query.rows)} No of cols - #{Number(query.cols)}
   - let rows = Number(query.rows);
   - let cols = Number(query.cols);
  
